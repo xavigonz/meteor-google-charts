@@ -48,7 +48,7 @@ if (Meteor.isClient) {
   var settings = Meteor.settings.public['rafaelhdr-google-charts']
   var packages
   if (typeof settings == 'undefined' || settings.packages == "undefined") {
-    packages = ['corechart', 'timeline', 'gauge']
+    packages = ['corechart', 'timeline', 'table', 'gauge']
   }
   else {
     packages = settings.packages
