@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'rafaelhdr:google-charts',
+  name: 'xavigonz:google-charts',
   summary: 'Easy Google Charts for Meteor',
   version: '0.0.4',
-  git: 'https://github.com/rafaelhdr/meteor-google-charts.git'
+  git: 'https://github.com/xavigonz/meteor-google-charts.git'
 });
 
 Package.onUse(function(api) {
